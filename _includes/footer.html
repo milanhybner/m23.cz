@@ -1,0 +1,51 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <a href="mailto:{{ site.email }}"><i class="icon fa fa-envelope fa-2x"></i></a>
+        <a href="tel:{{ site.phone }}"><i class="icon fa fa-phone fa-2x"></i></a>
+        <a href="http://facebook.com/{{ site.facebook_username }}"><i class="icon fa fa-facebook fa-2x"></i></a>
+        <a href="http://twitter.com/{{ site.twitter_username }}"><i class="icon fa fa-twitter fa-2x"></i></a>
+      </div>
+      <form id="f">
+        <div class="footer-col  footer-col-2">
+          <textarea id="message" placeholder="Zpráva (jméno a kontakt)" rows="2"></textarea><br />
+          <input id="docid" type="hidden" value="{% if page.docid %}{{ page.docid }}{% else %}{{ page.title }}{% endif %}">
+        </div>
+        <div class="footer-col  footer-col-3">
+          <a href="https://www.dropbox.com/request/CNZIN7GJMXmleEJ9QICN"><input id="file" type="button" class="btn2" value="Poslat soubor" target="_blank"></a>
+        </div>
+        <div class="footer-col  footer-col-4">
+          <input id="btn" class="btn" type="submit" value="Odeslat zprávu">
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+  $('#message').keydown(function (e) {  
+    if ((event.keyCode == 10 || event.keyCode == 13) && event.ctrlKey) {
+      $('form[id=f]').submit();
+    }
+  });
+    $('form[id=f]').submit(function(e) {
+        e.preventDefault();
+        var text = $('#message').val();
+        var docid = $('#docid').val();
+        var postData = '{"text": "' + docid + ' – ' + text + '"}';
+        var btn = $('#btn');
+        $.ajax({
+            type: 'POST',
+            cache: false,
+            url: 'https://zapier.com/hooks/catch/3no6dl/',
+            data: postData,
+            success: function() {window.location.href = "#";}
+        });
+        btn.val("Zpráva odeslána");
+    });
+});
+</script>

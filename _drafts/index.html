@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="cs" ng-app="store">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Moje angular.js aplikace</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+	<script src="https://jspm.io/system@0.16.js"></script>
+</head>
+
+<body>
+	<script type="text/javascript" src="https://code.angularjs.org/1.5.5/angular.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+
+	<div ng-controller="StoreController as store">
+		<div ng-repeat="product in store.products">
+			<h1> {{product.name}} </h1>
+			<h2> {{product.price}} </h2>
+			<p> {{product.description}} </p>
+			<button ng-show="product.canPurchase">Přidat do košíku</button>
+		</div>
+	</div>
+</body>
+</html>
+
+
