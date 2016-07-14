@@ -83,7 +83,7 @@ title: Osobní
     <table class="table">
         <tbody class="list">
      {%for poznamka in site.data.poznamky %}
-            <tr>
+            <tr id="{{poznamka.i}}">
                 <td class="i" style="width:20%"><a href="{{poznamka.u}}">{{poznamka.i}}</a></td>
                 <td class="c" style="width:10%">{{poznamka.c}}</td>
                 <td class="t" style="width:70%">{{poznamka.t}}</td>
