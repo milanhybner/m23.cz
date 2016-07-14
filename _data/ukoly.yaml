@@ -55,8 +55,13 @@
   i: 
 
 - c: us
-  t: vyřešit fakturu zdravotní tv (zapsat do třídnice)
+  t: kniha parkouru
   u: 
+  i: 
+
+- c: m23
+  t: koupit zelenou do kuchyně
+  u: https://www.hornbach.cz/cms/cs/cz/o_hornbachu/moje_prodejna/prodejny.html
   i: 
 
 - c: us
