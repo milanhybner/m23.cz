@@ -1,3 +1,5 @@
+
+
 - c: m23
   t: Připevnit poličku do kuchyně
   u: 
@@ -60,9 +62,9 @@
   i: 
 
 - c: m23
-  t: koupit zelenou do kuchyně
+  t: koupit zelenou 40.21.03 do kuchyně
   u: https://www.hornbach.cz/cms/cs/cz/o_hornbachu/moje_prodejna/prodejny.html
-  i: 
+  i: 2016-07-15
 
 - c: us
   t: Zamyslet se nad e-learningem
