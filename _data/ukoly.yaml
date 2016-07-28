@@ -1,5 +1,3 @@
-
-
 - c: m23
   t: Připevnit poličku do kuchyně
   u: 
@@ -9,11 +7,6 @@
   t: Sehnat cvičitele
   u: sokolsestajovice.cz
   i: 2016-09-01
-
-- c: pk
-  t: Svolat na středu trénink
-  u: 
-  i: 
 
 - c: s6
   t: Na výboru schválit, kdo může pracovat s daty
@@ -40,7 +33,6 @@
   u: 
   i: 
 
-
 - c: us
   t: Kubín / Kočica licenční smlouva
   u: 
@@ -66,28 +58,13 @@
   u: https://www.hornbach.cz/cms/cs/cz/o_hornbachu/moje_prodejna/prodejny.html
   i: 2016-07-15
 
-- c: us
-  t: Zamyslet se nad e-learningem
-  i: 2016-07-31
-  u: 
-
 - c: zb
   t: rozeslat info o novém webu
   u: 
   i: 
 
 - c: m23
-  t: smazat nepoužívané kontakty
-  u: 
-  i: 
-
-- c: m23
   t: přesunout web na github
-  u: 
-  i: 
-
-- c: us
-  t: získat od Gabea DPP
   u: 
   i: 
 
