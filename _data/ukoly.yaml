@@ -1,7 +1,7 @@
-- c: m23
-  t: Připevnit poličku do kuchyně
-  u: 
-  i: 2016-08-15
+- c: us
+  t: Aktualizovat e-kurz první pomoci
+  u: http://ucebna.sokol.eu
+  i: 
 
 - c: s6
   t: Sehnat cvičitele
@@ -29,11 +29,6 @@
   i: 
 
 - c: us
-  t: Martin - podívat se na (schválit) funkční trénink
-  u: 
-  i: 
-
-- c: us
   t: Kubín / Kočica licenční smlouva
   u: 
   i: 
@@ -53,18 +48,8 @@
   u: 
   i: 
 
-- c: m23
-  t: koupit zelenou 40.21.03 do kuchyně
-  u: https://www.hornbach.cz/cms/cs/cz/o_hornbachu/moje_prodejna/prodejny.html
-  i: 2016-07-15
-
 - c: zb
   t: rozeslat info o novém webu
-  u: 
-  i: 
-
-- c: m23
-  t: přesunout web na github
   u: 
   i: 
 
