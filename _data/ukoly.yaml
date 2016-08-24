@@ -4,16 +4,6 @@
   i: 
 
 - c: s6
-  t: Sehnat cvičitele
-  u: sokolsestajovice.cz
-  i: 2016-09-01
-
-- c: s6
-  t: Na výboru schválit, kdo může pracovat s daty
-  u: 
-  i: 
-
-- c: s6
   t: Teplákovky pro cvičitele
   u: 
   i: 
@@ -39,17 +29,7 @@
   i: 
 
 - c: us
-  t: poslat pozvánku přihlášeným na původní termín instruktora parkouru
-  u: 
-  i: 
-
-- c: us
   t: kniha parkouru
-  u: 
-  i: 
-
-- c: zb
-  t: rozeslat info o novém webu
   u: 
   i: 
 

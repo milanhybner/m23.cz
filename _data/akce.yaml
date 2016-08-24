@@ -1,16 +1,6 @@
-- i: 2016-08-17
-  c: m23
-  t: Lezení 7:00 smíchov
-  u: 
-
 - i: 2016-08-25
   c: pk
   t: Tělo Praha
-  u: 
-
-- i: 2016-08-25
-  c: s6
-  t: Výbor
   u: 
 
 - i: 2016-08-25
@@ -262,6 +252,11 @@
   u: 
   c: zb
 
+
+- i: 2016-10-16
+  t: Šestajovická šestka
+  u: 
+  c: s6
 
 - i: 2016-10-16
   t: Sportovní gymnastika od přemetu
