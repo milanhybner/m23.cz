@@ -1,60 +1,12 @@
-- i: 2016-08-25
-  c: pk
-  t: Tělo Praha
-  u: 
-
-- i: 2016-08-25
-  t: Celostátní sokolský cyklistický sraz
-  u: 
-  c: zb
-
-- i: 2016-08-25
-  t: Pochod Giacoma Casanovy
-  u: 
-  c: zb
-
-- i: 2016-08-27
-  c: m23
-  t: Rodinné setkání Mirovice
-  u: 
-
-- i: 2016-08-27
-  c: zb
-  t: Soutěž šplh Libčice
-  u: 
-
-- i: 2016-09-03
-  c: us
-  t: Školení DNS
-  u: https://drive.google.com/file/d/0BzYz3HoQse-STU5OeWQtbGlacUdkcXNLS0RlcndsdGFGdHZZ/view?usp=sharing
-
-- i: 2016-09-04
-  c: us
-  t: Školení DNS
-  u: https://drive.google.com/file/d/0BzYz3HoQse-STU5OeWQtbGlacUdkcXNLS0RlcndsdGFGdHZZ/view?usp=sharing
-
-- i: 2016-09-07
-  c: s6
-  t: 16:00 Veletrh kroužků (před ZŠ klánovice?)
-  u: 
-
 - i: 2016-09-09
   t: Sokol v lese
   u: http://sokol.eu/obsah/5463
   c: zb
 
-
-- i: 2016-09-09
-  t: Trenér akrobatického rock and rollu II. třídy
-  u: http://www.sokol.cz/sokol/index.php?action=zobrazakci&id=1450128931
-  c: zb
-
-
 - i: 2016-09-10
   t: 12. Se Sokolem za kopečky Velká Čantoryje
   u: 
   c: zb
-
 
 - i: 2016-09-10
   t: Street workout
@@ -65,11 +17,6 @@
   t: Školení trenérů trampolín III. třídy – 1. konzultace
   u: 
   c: us
-
-- i: 2016-09-10
-  t: Šestajovická šestka
-  u: s6
-  c: 
 
 - i: 2016-09-11
   t: Školení trenérů trampolín III. třídy – 1. konzultace
@@ -90,13 +37,6 @@
   t: Beroun Všestrannost II. třída 4. konzultace - budu tam
   u: 
   c: us
-
-
-- i: 2016-09-16
-  t: Sokolské setkání v Děčíně
-  u: 
-  c: zb
-
 
 - i: 2016-09-16
   t: Tyršův Děčín 2016
@@ -120,14 +60,14 @@
   c: us
 
 - i: 2016-09-19
-  t: začíná sokolský týden pohybu
+  t: začíná spolu v pohybu
   c: us s6
-  u:
+  u: http://www.sokol.eu/obsah/5929/sokol-spolu-v-pohybu
 
 - i: 2016-09-20
   t: 17:30 schůze předsednictva
   c: zb
-  u: 
+  u: http://zb.m23.cz
 
 - i: 2016-09-22
   t: Na vodu bezpečně a technicky správně (do 25.)
@@ -137,7 +77,12 @@
 - i: 2016-09-22
   t: Výbor
   c: s6
-  u: 
+  u: http://www.sokolsestajovice.cz
+
+- i: 2016-09-23
+  t: Noc sokoloven
+  c: s6
+  u: http://www.sokol.eu/obsah/3358/noc-sokoloven
 
 - i: 2016-09-24
   t: Noha a její ploska
