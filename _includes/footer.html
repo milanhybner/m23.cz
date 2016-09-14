@@ -33,7 +33,10 @@ $(document).ready(function() {
   });
     $('form[id=f]').submit(function(e) {
         e.preventDefault();
-        var text = $('#message').val();
+        var message3 = $('#message').val();
+        var message2 = message3.replace(/(?:\r\n|\r|\n)/g, '  ');
+        var message1 = message2.replace(/"/g, '');
+        var text = message1;
         var docid = $('#docid').val();
         var postData = '{"text": "' + docid + ' – ' + text + '"}';
         var btn = $('#btn');
