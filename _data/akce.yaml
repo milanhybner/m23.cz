@@ -1,4 +1,3 @@
-
 - i: 2016-09-22
   t: Na vodu bezpečně a technicky správně (do 25.)
   u: http://www.sokol.cz/sokol/index.php?action=zobrazakci&id=1450128923
@@ -94,7 +93,7 @@
 
 - i: 2016-10-07
   t: Školení cvičitelů všestrannosti III. třídy
-  u: http://www.sokol.cz/sokol/index.php?action=zobrazakci&id=1454780024
+  u: 
   c: zb us
 
 - i: 2016-10-08
@@ -102,11 +101,6 @@
   u: 
   c: zb
 
-
-- i: 2016-10-08
-  t: Badminton
-  u: http://www.sokol.cz/sokol/index.php?action=zobrazakci&id=1450128925
-  c: zb
 
 
 - i: 2016-10-08
@@ -167,6 +161,12 @@
   t: Všestrannost II. třída 5. konzultace
   c: us zb
   u: 
+
+- i: 2016-10-22
+  t: Badminton
+  u: http://www.sokol.cz/sokol/index.php?action=zobrazakci&id=1450128925
+  c: zb
+
 
 - i: 2016-10-22
   t: Sraz župních vedoucích žen a seniorek
@@ -276,7 +276,7 @@
   c: zb us
 
 - i: 2016-11-24
-  t: schůze náčelníků jednot župy barákovy
+  t: 17:00 schůze náčelníků jednot župy barákovy
   c: zb
   u: 
 
